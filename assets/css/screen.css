@@ -754,6 +754,10 @@ body:not(.post-template) .post-title {
     line-height: 1.7em;
 }
 
+.post-excerpt .full-img {
+   width: 100%;
+}
+
 .read-more {
     text-decoration: none;
 }
