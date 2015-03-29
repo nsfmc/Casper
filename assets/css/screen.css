@@ -1038,6 +1038,12 @@ body:not(.post-template) .post-title {
     line-height: 1.5em;
 }
 
+.post-excerpt .video-vertical {
+   width: 355px;
+   height: 631px;
+   margin-left: 25%;
+}
+
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
