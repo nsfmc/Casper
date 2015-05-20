@@ -1266,6 +1266,7 @@ body:not(.post-template) .post-title {
 
 .post-footer .share a:hover {
     color: #50585D;
+}
 .post-footer .share .icon-twitter:hover {
     color: #55acee;
 }
