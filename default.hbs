@@ -44,5 +44,16 @@
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
+    {{! fancy zooming for images }}
+    <script>
+    var img_list = document.querySelectorAll("article.post section img");
+    var img_arr = Array.prototype.slice.call(img_list);
+    img_arr.forEach(function(c,i,a){
+        c.setAttribute('data-action', 'zoom')
+    })
+    </script>
+    <link href="{{asset "css/zoom.css"}}">
+    <script type="text/javascript" src="{{asset "js/zoom.js"}}"></script>
+
 </body>
 </html>
