@@ -1164,16 +1164,12 @@ body:not(.post-template) .post-title {
        in the opposite direction by half its own width.
        Works for images that are larger than their containers. */
     position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%); /* for Safari and iOS */
-    transform: translateX(-50%);
+    margin-left: -13%;
 }
 
 .post-excerpt img {
    /* keep homepage images under control */
     max-width: 100%;
-    -ms-transform: translateX(-50%); /* for IE9 */
-    transform: translateX(-50%);
 }
 
 .footnotes {
