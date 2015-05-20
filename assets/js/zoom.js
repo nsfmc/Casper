@@ -197,7 +197,7 @@
     this._overlay           = document.createElement('div')
     this._overlay.className = 'zoom-overlay'
 
-    $(this._targetImage).closest("section").appendChild(this._overlay)
+    $(this._targetImage).closest("section").append(this._overlay)
 
     this._calculateZoom()
     this._triggerAnimation()
